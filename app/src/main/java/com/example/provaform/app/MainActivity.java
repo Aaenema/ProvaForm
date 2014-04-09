@@ -17,7 +17,16 @@ import android.widget.TextView;
 
 public class MainActivity extends ActionBarActivity {
 
+
+    //costruzione del layout tramite file xml
     @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+    }
+
+    //costruizione del layout in java
+    /*@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -74,10 +83,10 @@ public class MainActivity extends ActionBarActivity {
         linearLayout2.addView(tableLayout);
         linearLayout2.addView(linearLayout1);
         setContentView(linearLayout2);
-/*
+*//*
         setContentView(R.layout.activity_main);
-*/
-    }
+*//*
+    }*/
 
 
     @Override
